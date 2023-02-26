@@ -72,8 +72,45 @@ button:nth-child(2){
 
 
 
+@media screen and (max-width: 320px){
 
 
+
+
+.wrapper{
+	position: relative;
+	width: 400px;
+	height: 200px;
+	background: white;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+button{
+	position: absolute;
+	width: 75px;
+	height: inherit;
+	font-size: 0.6em;
+	color: white;
+	font-weight: 300;
+	border-radius: 15px;
+	border: 2px solid rgb(90, 158, 212);
+	outline: none;
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgb(0, 0, 0, 0.3);
+}
+button:nth-child(1){
+	margin-left: -200px;
+	background: rgb(90, 158, 212);
+}
+
+button:nth-child(2){
+	margin-right: -200px;
+	background: rgb(90, 158, 212);
+}
 
 
 
